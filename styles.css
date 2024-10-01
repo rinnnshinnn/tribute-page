@@ -1,3 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4ff;
+}
+
+#title, p {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #5a8dee;
+}
+
+#title {
+    font-size: 3rem;
+}
+
 img {
     display: block;
 }
@@ -6,4 +26,14 @@ img {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+#about, #abilities, #quotes {
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2, #abilities h2, #quotes h2 {
+    font-size: 2rem;
+    color: #5a8dee;
 }
